@@ -120,20 +120,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="New Shit Test.Plugins.csproj">
-      <Project>{4FE7FDE7-E432-5A0D-A467-DA569D6EA5B9}</Project>
-      <Name>New Shit Test.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="New Shit Test.csproj">
       <Project>{993AE8A8-ABEB-6608-FA71-FFEAEB12A0C0}</Project>
       <Name>New Shit Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="New Shit Test.Plugins.csproj">
+      <Project>{4FE7FDE7-E432-5A0D-A467-DA569D6EA5B9}</Project>
+      <Name>New Shit Test.Plugins</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />

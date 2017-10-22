@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New Shit Test.Plugins", "New Shit Test.Plugins.csproj", "{4FE7FDE7-E432-5A0D-A467-DA569D6EA5B9}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New Shit Test", "New Shit Test.csproj", "{993AE8A8-ABEB-6608-FA71-FFEAEB12A0C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New Shit Test.Editor.Plugins", "New Shit Test.Editor.Plugins.csproj", "{1760D404-CCC8-9C5F-7E2B-537B97523C50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FE7FDE7-E432-5A0D-A467-DA569D6EA5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE7FDE7-E432-5A0D-A467-DA569D6EA5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE7FDE7-E432-5A0D-A467-DA569D6EA5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE7FDE7-E432-5A0D-A467-DA569D6EA5B9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{993AE8A8-ABEB-6608-FA71-FFEAEB12A0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{993AE8A8-ABEB-6608-FA71-FFEAEB12A0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{993AE8A8-ABEB-6608-FA71-FFEAEB12A0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{993AE8A8-ABEB-6608-FA71-FFEAEB12A0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1760D404-CCC8-9C5F-7E2B-537B97523C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1760D404-CCC8-9C5F-7E2B-537B97523C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1760D404-CCC8-9C5F-7E2B-537B97523C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1760D404-CCC8-9C5F-7E2B-537B97523C50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
